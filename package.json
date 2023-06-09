@@ -9,6 +9,7 @@
     "cypress": "^12.14.0"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/e2e/**/*.step.{js,ts}"
+    "stepDefinitions": "cypress/e2e/**/*.step.{js,ts}",
+    "nonGlobalStepDefinitions": true
   }
 }
